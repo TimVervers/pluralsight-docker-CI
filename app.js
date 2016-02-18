@@ -5,12 +5,11 @@
 var express = require('express'),
     app = express();
 
-app.set('views', 'views');
-app.set("view options", {layout: false});
+app.use(express.static(__dirname + '/views'));
 
-app.get('/', function(req, res) {
-    res.sendfile('/home.html');
-  });
+app.get('/',function(req,res){
+     res.sendFile('home.html');
+});
 
 app.listen(8080);
 module.exports.getApp = app;
