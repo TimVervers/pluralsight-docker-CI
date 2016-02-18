@@ -9,7 +9,7 @@ app.set('views', 'views');
 app.set("view options", {layout: false});
 
 app.get('/', function(req, res) {
-    res.sendfile('home.html');
+    res.sendfile('/home.html');
   });
 
 app.listen(8080);
