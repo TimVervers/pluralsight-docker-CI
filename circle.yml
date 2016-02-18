@@ -1,6 +1,7 @@
 # The deployment section should be excluded until
 # it is explicitly included in module 5
 
+#deploying to docker with trigger DOCKER_HUB_TRIGGER
 deployment:
   dockerhub:
     branch: master
