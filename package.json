@@ -1,14 +1,13 @@
 {
   "name": "hello-whiskey",
   "private": true,
-  "version": "0.0.1",
-  "description": "Demo app from Pluralsight Docker CI course",
+  "version": "0.0.2",
+  "description": "Homemade Whiskey app deployed by Docker",
   "main": "app.js",
   "author": "Tim Ververs <t.ververs@coolblue.nl>",
-  "license": "nope,nope and nope",
+  "license": "Nope,Nope and Nope",
   "dependencies": {
     "express": "3.2.4",
-    "jade": "1.11.0",
     "mocha": "1.20.1",
     "supertest": "1.1.0"
   }
